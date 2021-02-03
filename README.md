@@ -72,12 +72,6 @@ This type of an analysis is popular in business case ()
 
 It allows companies to better ()
 
-# Feature Selection/Top Features/Recommendations
-
-**(Illustration)**
-
-![](/images/featureselection.png)
-
 ## Limitations
 
 Limitations to this type of statistical modeling are ()
