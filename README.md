@@ -61,6 +61,7 @@ MultinomialNB Classifier Overall Accuracy: 0.91
 
 LinearSVC Classifier Overall Accuracy:: 0.90
 
+### Final Model
 **LinearSVC Pipeline: Overall Accuracy:: 0.92**
 
 ## Interpreting Results | Used Cases
