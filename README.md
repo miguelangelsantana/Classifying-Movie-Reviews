@@ -1,10 +1,9 @@
-# PENDING - -
 # Movie Review Text Classification
 ## Classifying Positive and Negative Review with NLP
 
 * **Author**: Miguel Santana
 
-Thank you for reviewing this repository. The author's contact info, blog post, sources and social media profiles are listed below under **further information.**
+Thank you for reviewing this repository. The author's contact info, sources and social media profiles are listed below under **further information.**
 
 The contents of this repository detail an analysis of 6000 movie reviews of which 3000 are positive and 3000 are negative. In this particular case, the text has been preprocessed and the labels are provided in order to assess performance. The analysis will provide insight into method's used by NLP professionals to evaluate text for businesses.
 
@@ -66,28 +65,14 @@ LinearSVC Classifier Overall Accuracy:: 0.90
 
 ## Interpreting Results | Used Cases
 
-The model was able to predict () with an (metric) score of (score).
-
-This type of an analysis is popular in business case ()
-
-It allows companies to better ()
-
-## Limitations
-
-Limitations to this type of statistical modeling are ()
-
-Challenges for this analysis are ()
+The text classifier model was able to predict positive and negative reviews with 92% accuracy. While this dataset is not representative of something that might be seen in a real work environment, (due to the perfect class balance and predetermined labels) the project shows the potential for application in business. In theory, a web scraper could be built to search for movie reviews which could be processed by our classifier to offer additional insight into the overall opinion of a film.
 
 ## Future Work
 
-Future work should include () data in order to ()
-
-This will allow () to be able to () better and ultimately leverage statistical modeling in order to ()
+Future work should include web scraping of additional sources to get a broader view of the classifier's potential with respect to more data from many more sources. In future projects, sentiment analysis in combination with text classification should be applied to these larger and more robust data sets.
 
 ### Further Information
 Please review the narrative of our analysis in [our jupyter notebook](./jupyter_notebook.ipynb) or review our [presentation](/powerpoint/powerpoint.pdf)
-
-A blog post on this analysis can be found on [Medium.](website)
 
 For any additional questions, please reach out via email at santana2.miguel@gmail.com, on [LinkedIn](https://www.linkedin.com/in/miguel-angel-santana-ii-mba-51467276/) or on [Twitter.](https://twitter.com/msantana_ds)
 
