@@ -1,16 +1,12 @@
 # PENDING - -
-# (Main Title)
-## (sub title) (Classification/Regression)
+# Movie Review Text Classification
+## Classifying Positive and Negative Review with NLP
 
 * **Author**: Miguel Santana
 
 Thank you for reviewing this repository. The author's contact info, blog post, sources and social media profiles are listed below under **further information.**
 
-The contents of this repository detail an analysis of ()
-
-The analysis will provide insight into ()
-
-Lastly, used cases that it can be applied to include ()
+The contents of this repository detail an analysis of 6000 movie reviews of which 3000 are positive and 3000 are negative. In this particular case, the text has been preprocessed and the labels are provided in order to assess performance. The analysis will provide insight into method's used by NLP professionals to evaluate text for businesses.
 
 ### Project Framework
 
@@ -20,16 +16,14 @@ Lastly, used cases that it can be applied to include ()
 
 ### The Data
 
-The dataset includes ()
-
-The dataset can be found ()
+The dataset is originally sourced from Stanford Artificial Intelligence Laboratory (SAIL) but was provided via Udemy. The Udemy citation is available below under **sources.** Please visit [ai.stanford.edu](http://ai.stanford.edu/~amaas/data/sentiment/) for more information on this dataset.
 
 ## Scrubbing/Data Cleaning 
 
 **Key Decisions**
 
-* (key scrubbing decision 1)
-* (key scrubbing decision 2)
+* Address whitespace strings
+* Drop null values
 
 ## Exploratory Data Analysis 
 
@@ -39,21 +33,35 @@ The dataset can be found ()
 
 ![!](/images/lengthofreviews.jpg)
 
-**(Feature Relationship 2)**
+**Positive vs. Negative**
 
-![](/images/relationship2.png)
+![!](/images/positivenegativelength.jpg)
 
 ## Statistical Modeling 
 
-The () model used for this analysis was () and (). 
+Modeling:
+* Feature | Target
+* Count Vectorization
+* Test | Train Split
+* MultinomialNB Classifier
+* LinearSVC Classifier
+* Pipeline: Top Model & TFIDF Vectorizer
 
 ### Model Validation
 
-The model performance was evaluated using () and ().
+Model performance was evaluated using accuracy as a metric. This decision was made as a result of the balanced positive and negative classes. 
 
-**(Metric) Scores**
+**MultinomialNB Classifier**
+![!](/images/MNB_modelvis.jpg)
 
-![](/images/validation.png)
+MultinomialNB Classifier Overall Accuracy: 0.91
+
+**LinearSVC Classifier**
+![!](/images/LSVC_modelvis.jpg)
+
+LinearSVC Classifier Overall Accuracy:: 0.90
+
+**LinearSVC Pipeline: Overall Accuracy:: 0.92**
 
 ## Interpreting Results | Used Cases
 
@@ -90,10 +98,9 @@ For any additional questions, please reach out via email at santana2.miguel@gmai
 
 #### Sources
 
-Additional analysis, notes and file sources can be found on Udemy's website. 
+Additional analysis, notes and file sources can be found on Udemy. 
 
-* Course Name:
-* Instructor: 
+* Course Name: NLP - Natural Language Processing | Jose Portilla
 
 ##### Repository Structure:
 
