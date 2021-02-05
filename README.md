@@ -1,5 +1,5 @@
 # Movie Review Text Classification
-## Classifying Positive and Negative Review with NLP
+## Classifying Positive and Negative Reviews with NLP
 
 * **Author**: Miguel Santana
 
