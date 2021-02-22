@@ -72,7 +72,7 @@ The text classifier model was able to predict positive and negative reviews with
 Future work should include web scraping of additional sources to get a broader view of the classifier's potential with respect to more data from many more sources. In future projects, sentiment analysis in combination with text classification should be applied to these larger and more robust data sets.
 
 ### Further Information
-Please review the narrative of our analysis in [our jupyter notebook](./jupyter_notebook.ipynb) or review our [presentation](/powerpoint/powerpoint.pdf)
+Please review the narrative of our analysis in [our jupyter notebook](./jupyter_notebook.ipynb) or review our [presentation](./presentation.pdf)
 
 For any additional questions, please reach out via email at santana2.miguel@gmail.com, on [LinkedIn](https://www.linkedin.com/in/miguel-angel-santana-ii-mba-51467276/) or on [Twitter.](https://twitter.com/msantana_ds)
 
