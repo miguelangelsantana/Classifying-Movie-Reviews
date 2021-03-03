@@ -82,7 +82,7 @@ Additional analysis, notes and file sources can be found on Udemy.
 
 * Course Name: NLP - Natural Language Processing | Jose Portilla
 
-##### Repository Structure:
+##### Repository Structure
 
 ```
 
